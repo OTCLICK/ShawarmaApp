@@ -13,9 +13,9 @@ import java.util.List;
 @RequestMapping("/shawarmas")
 public class ShawarmaController {
     private List<Shawarma> shawarmas = new ArrayList<>(List.of(
-            new Shawarma(1, "Классическая", 229.99),
-            new Shawarma(2, "Студенческая", 169.99),
-            new Shawarma(3, "Фирменная", 279.99)
+            new Shawarma(1, "Classic", 229.99),
+            new Shawarma(2, "Student", 169.99),
+            new Shawarma(3, "Branded", 279.99)
     ));
 
     @GetMapping

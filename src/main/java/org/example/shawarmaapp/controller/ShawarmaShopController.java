@@ -13,8 +13,8 @@ import java.util.List;
 @RequestMapping("/shops")
 public class ShawarmaShopController {
     private List<ShawarmaShop> shops = new ArrayList<>(List.of(
-            new ShawarmaShop(1, "Донер у Братишек", "ул. Бориса Галушкина, 16"),
-            new ShawarmaShop(2, "ШаурмуЕли", "Сущёвская ул., 25, стр.4")
+            new ShawarmaShop(1, "Doner u Bratishek", "Borisa Galushkina Street, 16"),
+            new ShawarmaShop(2, "ShaurmuEli", "Sushchevskaya Street, 25, building 4")
     ));
 
     @GetMapping
